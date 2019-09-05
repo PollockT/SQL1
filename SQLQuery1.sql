@@ -1,0 +1,13 @@
+CREATE DATABASE pollock
+	CREATE TABLE customer
+	(CustomerId INT NOT NULL PRIMARY KEY,
+	Title VARCHAR(3),
+	FirstName VARCHAR(10) NOT NULL,
+	LastName VARCHAR(15) NOT NULL,
+	StreetAddress VARCHAR(20) NOT NULL,
+	City VARCHAR(15) NOT NULL,
+	StateInitials CHAR(2) NOT NULL,
+	ZipCode NUMERIC NOT NULL,
+	EmailAddress VARCHAR(25) NOT NULL,
+	PhoneNumber INT UNIQUE)
+	

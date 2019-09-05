@@ -1,0 +1,9 @@
+USE pollock
+	CREATE TABLE product
+	(ProductID INT NOT NULL PRIMARY KEY,
+	ProductName VARCHAR NOT NULL UNIQUE,
+	Brand VARCHAR NOT NULL,
+	Price SMALLMONEY NOT NULL,
+	Quantity TINYINT NOT NULL,
+	DateAdded NCHAR(10))
+	
